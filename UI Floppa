@@ -1759,8 +1759,8 @@ function OrionLib:MakeWindow(WindowConfig)
 	return TabFunction
 end   
 
-function OrionLib:Destroy()
+function FloppaHub:Destroy()
 	Orion:Destroy()
 end
 
-return OrionLib
+return FloppaHub
